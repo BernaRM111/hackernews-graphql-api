@@ -17,7 +17,7 @@ spec:
         name: bernarm111
         envFrom:
         - configMapRef:
-           name: bernarm111-configmap
+           name: bernarm111-config
         livenessProbe:
           httpGet:
             path: /ht/
